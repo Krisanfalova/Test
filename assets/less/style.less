@@ -1,0 +1,30 @@
+@import 'components/variables';
+@import "components/mixins";
+
+//boostrap file includes only grid system, forms and responsive utilities
+@import (inline) "../css/bootstrap.css";
+
+@import "components/help-classes";
+
+@import "components/fonts";
+@import "components/icons";
+
+@import "components/interface";
+
+@import "components/base";
+
+@import "pages/index";
+
+
+h1{
+  font-family: 'ProximsNova', sans-serif;
+  font-weight: 700;
+}
+
+
+.btn{
+  .transition();
+  &:hover{
+    background: red;
+  }
+}
